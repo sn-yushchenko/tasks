@@ -1,0 +1,250 @@
+.add {
+    text-align: center;
+    margin-top: 20%;
+    z-index: 11111;
+}
+
+.autorization {
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.user {
+    color: white;
+}
+
+#registration-form {
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    position: fixed;
+    top: 0px;
+    z-index: 22222;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity 1s ease-out;
+    -moz-transition: opacity 1s ease-out;
+    -o-transition: opacity 1s ease-out;
+    transition: opacity 1s ease-out;
+}
+
+#form-r {
+    width: 300px;
+    background-color: white;
+    z-index: 99999;
+    position: fixed;
+    padding: 10px 20px;
+    top: 2%;
+    left: 35%;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity 2s ease-out 0.5s;
+    -moz-transition: opacity 2s ease-out 0.5s;
+    -o-transition: opacity 2s ease-out 0.5s;
+    transition: opacity 2s ease-out 0.5s;
+}
+
+.glyphicon-remove {
+    cursor: pointer;
+}
+
+#form-a {
+    width: 300px;
+    background-color: white;
+    z-index: 99999;
+    position: fixed;
+    padding: 10px 20px;
+    top: 20%;
+    left: 35%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 2s ease-out;
+    -moz-transition: opacity 2s ease-out;
+    -o-transition: opacity 2s ease-out;
+    transition: opacity 2s ease-out;
+}
+
+#autorization-form {
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    position: fixed;
+    top: 0px;
+    z-index: 22222;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity 1s ease-out;
+    -moz-transition: opacity 1s ease-out;
+    -o-transition: opacity 1s ease-out;
+    transition: opacity 1s ease-out;
+}
+
+.main {
+    background-image: url("/beejee/images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    background-position: center;
+    /*    position: absolute;*/
+    width: 100%;
+    min-height: 800px;
+    padding-top: 20px;
+}
+
+.admin {
+    background-image: url("/beejee/images/coffe.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    position: absolute;
+    width: 100%;
+    min-height: 800px;
+    padding: 20px;
+}
+
+#table-task {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin: 5% auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#textarea {
+    width: 100%;
+}
+
+.btn {
+    margin-top: 15px;
+}
+
+img {
+    width: 140px;
+    height: 110px;
+}
+
+.task-list {
+    background-image: url("/beejee/images/coffe.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    background-position: center;
+    /*    position: absolute;*/
+    width: 100%;
+    min-height: 800px;
+    padding-top: 20px;
+}
+
+.task-list {
+    background-image: url("/beejee/images/coffe.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    background-position: center;
+    /*    position: absolute;*/
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+}
+
+#list {
+    background-color: #E7E4E4;
+    height: auto;
+    padding: 30px;
+}
+
+#auto {
+    cursor: pointer;
+}
+
+#reg {
+    cursor: pointer;
+}
+
+#preview {
+    display: none;
+}
+
+#imgpreview {
+    width: 100px;
+    height: 70px;
+}
+
+#exitpreview {
+    cursor: pointer;
+}
+
+#tasks {
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+#exitreg {
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+#exitauto {
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.img-table {
+    width: 60px;
+    height: 40px;
+}
+
+.error {
+    font-size: 8px;
+}
+
+.addtask {
+    background-image: url("/beejee/images/coffe.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    background-position: center;
+    /*    position: absolute;*/
+    width: 100%;
+    min-height: 800px;
+    padding-top: 20px;
+}
+
+#form-task {
+    width: 600px;
+    background-color: #E7E4E4;
+    padding: 10px 20px;
+    margin-top: 5%;
+}
+
+#block1 {
+    display: block;
+}
+
+#exit {
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 5px;
+}
